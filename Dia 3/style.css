@@ -1,0 +1,96 @@
+*{
+    font-size:62.5%;
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align:justify
+}
+
+body{
+    background-image: url("../assets/wallpaper.webp");
+    background-size:cover;
+}
+
+#content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    background:rgb(233, 232, 232);
+    border-radius:2rem;
+    width:30rem;
+    height:30rem;
+    padding: 3rem;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.9);
+}
+
+
+label{
+    position:relative;
+    bottom:.5rem;
+    font-size:2rem;
+
+}
+
+button{
+    position:relative;
+    top:1.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    float:left;
+
+    background-color:rgb(66 150 94);
+    
+    width:10rem;
+    height:3.5rem;
+    border-radius:.5rem;
+
+    margin-left:1.5rem;
+    font-size: 1.2rem;
+    text-align:center;
+    cursor:pointer;
+    
+    transition: .2s
+}
+
+button:hover{
+    background-color: rgba(30, 73, 86, 0.863);
+}
+
+input{
+    width:25rem;
+    height:4rem;
+    border-radius:.5rem;
+    padding:1rem;
+    font-size:1.5rem;
+    color:rgba(0, 0, 0, 0.856);
+    content:"";
+}
+
+#respostas{
+    position:relative;
+    top: 10rem;
+    left:-2rem;
+    height:10rem;
+    width: 30rem;
+    background-color: #43686b;
+    overflow-y:scroll;
+    padding:2rem;
+
+    box-shadow: -8px 10px 35px -22px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: -8px 10px 35px -22px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: -8px 10px 35px -22px rgba(0,0,0,0.75) inset;
+}
+
+#respostas p{
+    font-size:1.5rem;
+    color:rgb(26, 25, 25)
+}
