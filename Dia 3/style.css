@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url("../assets/wallpaper.webp");
+    background-image: url("./assets/wallpaper.webp");
     background-size:cover;
 }
 
