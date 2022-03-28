@@ -43,3 +43,48 @@ LINK: https://7daysofcode-dia2.vercel.app
 ### 🔗 Visualizar projeto
 LINK: https://7daysofcode-dia3.vercel.app
 
+## 📚 Dia 4 - Randomização
+- [x] Programa que interaje com o usuário para que adivinhe um número aleatório.
+
+```
+  Você já brincou de tentar adivinhar o número que seu amigo ou amiga estava pensando? Hoje você vai voltar na infância e fazer exatamente isso. Mas agora, o jogo vai ser contra o próprio computador!
+```
+
+### 💻 Implementações adicionais
+- [x] Criação de um site
+- [x] Número aleatório através da função Random
+
+### 🔗 Visualizar projeto
+LINK: https://codepen.io/DanieleOliveira/pen/YzYVyqK
+
+## 📚 Dia 5 - Arrays
+- [x] Programa que simula uma lista de compras: permite adicionar itens de diversos setores
+```
+  O programa deverá imprimir, por exemplo:
+
+Lista de compras:
+    Frutas: banana, tomate, maçã, uva, abacate
+    Laticínios: leite vegetal, leite de vaca, leite em pó
+    Congelados:
+    Doces: chiclete e bala de ursinho
+```
+
+### 💻 Implementações adicionais
+- [x] Criação de um site
+
+### 🔗 Visualizar projeto
+LINK: https://codepen.io/DanieleOliveira/pen/GRyEgwQ
+
+## 📚 Dia 6 - Remoção de arrays
+- [x] Programa que simula uma lista de compras: permite adicionar itens de diversos setores e remover os itens adicionados.
+```
+  Você pode fazer a procura do elemento que a pessoa deseja apagar da forma que quiser, usando métodos do Javascript para isso.
+```
+
+### 💻 Implementações adicionais
+- [x] Criação de um site
+- [x] Utilização do método splice e indexOf
+
+### 🔗 Visualizar projeto
+LINK: https://codepen.io/DanieleOliveira/pen/popwvYX?editors=0010
+
