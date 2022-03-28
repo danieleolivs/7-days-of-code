@@ -1,0 +1,145 @@
+*{
+    font-size:62.5%;
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image:url('https://1.bp.blogspot.com/-pDbrnZpcVdQ/Wf4jVzdCRgI/AAAAAAAABH4/nU9A-ZDwZ9EO8T6cw-YXaQykwSPYlr2NQCLcBGAs/s1600/endingnight.jpg');
+    background-size:cover
+}
+
+#conteiner{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+    
+}
+
+#conteudo{
+    position:relative;
+    width:40rem;
+    height:40rem;
+    background-color:#d9d9d9;
+
+    padding:3.5rem;
+    border-radius:3rem
+
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    position:fixed;
+    top:17rem;
+    right:.1rem
+}
+
+
+h1{
+    position:relative;
+    font-size:3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#241624;
+}
+
+
+button{
+    position:relative;
+    width:8rem;
+    height:8rem;
+    background-color:#342634;
+    margin-bottom:.1rem;
+    margin-right:.1rem;
+    cursor:pointer;
+    border-radius:.3rem;
+    transition: .2s
+}
+
+button:hover{
+    background-color:#29355d;
+    width:12rem;
+    height:12rem;
+    z-index:1;
+    
+}
+
+button:hover::after{
+    color:white;
+    font-size:1.5rem;
+    position:relative;
+    left:1.6rem
+}
+
+
+#coluna-1 button:hover::after{
+    content:'Operações Booleanas❓';
+    
+}
+
+#coluna-2 button:hover::after{
+    content:'Variáveis📦';
+    
+}
+
+#coluna-3 button:hover::after{
+    content:'Fluxo de decisão🚗';
+    left:1rem
+}
+
+#coluna-4 button:hover::after{
+    content:'Randomização💭';
+    left:.3rem
+}
+
+#coluna-5 button:hover::after{
+    content:'Arrays📇';
+    
+}
+
+#coluna-6 button:hover::after{
+    content:'Remoção de arrays❌';
+    left:.3rem
+}
+
+#coluna-7 button:hover::after{
+    content:'Em breve';
+    
+}
+
+button:disabled,
+button[disabled]{
+  background-color: #342634;
+  
+}
+
+img{
+    width:4rem;
+}
+
+a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+

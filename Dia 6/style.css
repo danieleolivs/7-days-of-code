@@ -1,0 +1,94 @@
+*{
+    font-size:62.5%;
+    margin:0;
+    padding:0;
+    border:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/a3e66f59924299.5a341b7b73e42.jpg");
+    background-size:cover;
+    color:rgb(41, 40, 40)
+}
+
+.content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    background:rgb(221 226 231);
+    border-radius:2rem;
+    width:35rem;
+    height:35rem;
+    padding: 4rem;
+
+    box-shadow: 10px 10px 5px 0px rgb(40 36 50);
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(40 36 50);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(40 36 50);
+}
+
+label{
+    position:relative;
+    bottom:.5rem;
+    font-size:1.8rem;
+
+}
+
+button{
+    position:relative;
+    top:5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    float:left;
+
+    background-color:rgb(230 145 111);
+    
+    width:12rem;
+    height:4rem;
+    border-radius:.5rem;
+
+    margin-left:1.5rem;
+    font-size: 1.2rem;
+    text-align:center;
+    cursor:pointer;
+    
+    transition: .2s
+}
+
+button:hover{
+    background-color: rgb(169 204 140);
+}
+
+select,input{
+    width:28rem;
+    height:4rem;
+    border-radius:.5rem;
+    padding:1rem;
+    font-size:1.5rem;
+    background-color:#b7cbe2;
+    color:rgba(0, 0, 0, 0.856);
+}
+
+
+#itens, select{
+    position:relative;
+    top:2rem
+}
+
+#excluir{
+    width:2.5rem;
+    height:2.5rem;
+    border-radius:50%;
+    top:-15rem;
+    left:26rem;
+}
+
+#controle{
+    display: inline-block !important;
+}
