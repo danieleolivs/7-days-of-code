@@ -88,3 +88,16 @@ LINK: https://codepen.io/DanieleOliveira/pen/GRyEgwQ
 ### 🔗 Visualizar projeto
 LINK: https://codepen.io/DanieleOliveira/pen/popwvYX?editors=0010
 
+## 📚 Dia 7 - Funções
+- [x] Calculadora utilizando funções e input/button
+```
+  Cada operação deverá ter uma função diferente no seu código, que receberá os valores inseridos como parâmetros e retornará com o resultado da operação.
+  
+```
+
+### 💻 Implementações adicionais
+- [x] Criação de um site
+
+### 🔗 Visualizar projeto
+LINK: https://codepen.io/DanieleOliveira/pen/MWroGPd
+
