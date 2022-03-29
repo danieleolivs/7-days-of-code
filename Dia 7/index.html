@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="imagem/png" href="./assets/programacao.png" />
+        <title>#7DaysOfCode - Dia 7</title>
+    </head>
+
+    <body>
+        <div class='conteiner'>
+
+            <div id='inputs'>
+                <div ><input type='text' id='valor1' placeholder='valor' onfocus='this.value=``'></div>
+                <div id='operacao'><label></label></div>
+                <div ><input type='text' id='valor2' placeholder='valor' onfocus='this.value=``'></div>
+                <div><label>=</label></div>
+                <div id='resultado'></div>
+            </div>
+            
+
+            <div id='botoes' class='linha'>
+                <div id='coluna-33'>
+                    <button onclick='somar()' id='soma'><label>+</label></button>
+                </div>
+                <div id='coluna-33'>
+                    <button onclick='subtrair()' id='subtrair'><label>-</label></button>
+                </div>
+                <div id='coluna-33'>
+                    <button onclick='multiplicar()' id='multiplicar'><label>x</label></button>
+                </div>
+                <div id='coluna-33'>
+                    <button onclick='dividir()' id='dividir'><label>/</label></button>
+                </div>
+                <div id='coluna-33'>
+                    <button onclick='calcular()' id='resultadoLabel'><label>=</label></button>
+                </div>
+                <div id='coluna-33'>
+                    <button id='alura' disable><label>alura</label></button>
+                </div>
+            </div>
+        </div>
+
+        <script src='./script.js'></script>
+    </body>
+</html>
